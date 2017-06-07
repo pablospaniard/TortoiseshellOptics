@@ -153,16 +153,20 @@ body {
     }
 }
 
-@media only screen and (max-width: 470px) {
-    .logo-nav span {
-        display: none;
-    }
+@media only screen and (max-width: 625px) {
     .nav li {
         display: none;
     }
     .mob-nav {
         display: flex;
     }
+}
+
+@media only screen and (max-width: 470px) {
+    .logo-nav span {
+        display: none;
+    }
+    
     .banner {
         padding-top: 0;
         height: 17rem;
